@@ -20,12 +20,20 @@ Um sintetizador de voz cantada criado com Python, para Windows: várias faixas, 
 - **Voicebanks encriptados** (`.chrvoice`).
 - **Importar `.mid` e `.ust`**, e converter projetos do OpenUtau (`.ustx`).
 - **Render incremental com cache**, também em segundo plano: só volta a sintetizar o que mudou.
-- **Temas** (Noite, Claro, Sakura, Ciano, Clássico), interface em **português e inglês**, janela «O que há de novo» e janela «Sobre».
+- **Temas** (Noite, Claro, Sakura, Ciano, Clássico), janela «O que há de novo» e janela «Sobre».
 
-## Instalar e correr
+## Requisitos
 
-Requer Windows e Python (recomendado 3.10 ou superior).
+- Windows.
+- **Por precaução, é preciso ter o Python instalado** (https://www.python.org/downloads/).
+- Erros inesperados ficam em `%USERPROFILE%\.pip_synth\crash.log` e aparecem numa caixa de diálogo.
 
-```
-python -m pip install -r requirements.txt
-python tools/make_demo_voicebank.py demo_voicebank   # opcional:
+## Primeiros passos
+
+*Cantores* → importar a pasta do voicebank → *Definir como cantor padrão* → *Novo projeto* → clicar/arrastar na grelha para criar notas → duplo-clique numa nota para escrever a letra → Espaço para ouvir.
+
+## Interface
+
+- **Splash** animada ao iniciar (pode ser desligada em Definições).
+- **Menu principal** (Ctrl+M volta a ele): *Início* (novo, abrir, continuar, recentes), *Projetos*, *Cantores* (importar pasta de voicebank UTAU ou DiffSinger / `.chrvoice`, encriptar, cantor padrão) e *Definições* (tema, splash, animações).
+- **Editor**: barra de transporte com visor LCD (tempo, compasso, BPM, fórmula, snap) e retrato do cantor; faixas à esquerda (duplo-clique ou botão direito para propriedades: cor,
