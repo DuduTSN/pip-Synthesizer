@@ -8,7 +8,7 @@
 
 # Português
 
-Um sintetizador de voz cantada criado com Python, para Windows: várias faixas, piano roll, edição de pitch e voicebanks UTAU ou DiffSinger (experimental). Os projetos usam a extensão `.chrproject` e os voicebanks podem ser pastas ou ficheiros encriptados `.chrvoice`.
+Um sintetizador de voz criado com Python, para Windows.
 
 ## Funcionalidades
 
@@ -42,8 +42,7 @@ Um sintetizador de voz cantada criado com Python, para Windows: várias faixas, 
 
 # English
 
-A singing voice synthesizer made with Python, for Windows: multi-track piano roll, pitch editing, and UTAU or (experimental) DiffSinger voicebanks. Projects use the `.chrproject` extension, and voicebanks can be plain folders or encrypted `.chrvoice` files.
-
+A singing voice synthesizer made with Python, for Windows.
 ## Features
 
 - **Multiple tracks**, each with its own singer, mute/solo, volume and pan; stereo mix.
