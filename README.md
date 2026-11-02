@@ -8,7 +8,7 @@
 
 # English
 
-A lightweight singing voice synthesizer built with Python for Windows.
+A singing voice synthesizer built with Python for Windows.
 
 ## Features
 
